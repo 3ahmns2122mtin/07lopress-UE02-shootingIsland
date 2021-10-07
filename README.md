@@ -1,4 +1,4 @@
-# Unity2020.3.18f1-README-Template
+# UE02 Shooting Island 
 
 ### Projektbeschreibung: 
 Einführung in / Zusammenfassung des Projektes. 
