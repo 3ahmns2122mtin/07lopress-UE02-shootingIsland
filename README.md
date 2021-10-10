@@ -38,12 +38,12 @@ das GameObject Main Camera per Drag & Drop auf Render Camera ziehen in der Kompo
 - [x] in Assets > MyGame > Prefabs Folder anlegen.
 - [x] Sprite Target in der Hierarchy als Kind GameObject von ParentTargets ziehen und umbenennen in Target.
 - [x] Das GameObject per Drag and Drop in den Prefabs Ornder ziehen. Sollte dann blau erscheinen. 
-- [ ] Ändern des Mauszeigers: 1) auf Sprite clicken und im Inspector Texture Type Cursor setzen. Wichtig ist am Ende Apply (unten rechts) zu bestätigen, sonst werden die 
-- [ ] Änderungen nicht übernommen. 2) Unter BuildSettings > PlayerSettings per Drag and Drop das Cursorsprite in Default Cursor ziehen. 
+- [x] Ändern des Mauszeigers: 1) auf Sprite clicken und im Inspector Texture Type Cursor setzen. Wichtig ist am Ende Apply (unten rechts) zu bestätigen, sonst werden die 
+- [x] Änderungen nicht übernommen. 2) Unter BuildSettings > PlayerSettings per Drag and Drop das Cursorsprite in Default Cursor ziehen. 
 - [x] In Assets > MyGame einen neuen Ordner anlegen Scripts
 - [x] In Scripts ein neues C# Script anlegen: Rechtsklick > Create > C# Script. Script gleich umbenennen in Target. Mit Doppelklick öffnen in Visual Studio (https://github.com/HTL-SBG/FAQIssuesUnityVSGitGitHub/issues/2).
 - [x] Anhängen des Scripts Target als Komponente an das GameObject Target (per Drag and Drop). 
-- [ ] Einen 2D Collider als Komponente dem Target hinzufügen. 
+- [x] Einen 2D Collider als Komponente dem Target hinzufügen. 
 - [ ] Dem Script Target eine Methode OnMouseDown() hinzufügen. 
 - [ ] In der OnMouseDown() Methodendeklaration, die Methodenaufruf Destroy(gameObject); hinzufügen
 - [ ] Das GO Target in der Hierarchy auswählen und mit Apply All die Änderungen bestätigen. 
