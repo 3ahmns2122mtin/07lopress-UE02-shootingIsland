@@ -11,6 +11,7 @@ WebGL Referenzauflösung (960x600)
 
 ### Visuelle Einblicke in das Projekt: 
 ![shootingIsland_skizze_lopress](https://user-images.githubusercontent.com/90834282/136345643-a07cf84f-b872-4428-a32b-c0b50e925842.jpeg)
+![shootingIsland_progress01](https://user-images.githubusercontent.com/90834282/136688400-93d0ca4f-03cf-4610-8e25-96b56bb52284.jpeg)
 
 ### Notwendiges für die Ausführung: 
 z.B.: Installationsprozess, Schritt für Schritt Anweisung, spezielles Packages welches geladen werden muss, etc.  
