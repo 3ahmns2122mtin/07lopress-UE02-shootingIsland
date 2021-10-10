@@ -42,7 +42,7 @@ das GameObject Main Camera per Drag & Drop auf Render Camera ziehen in der Kompo
 - [ ] Änderungen nicht übernommen. 2) Unter BuildSettings > PlayerSettings per Drag and Drop das Cursorsprite in Default Cursor ziehen. 
 - [x] In Assets > MyGame einen neuen Ordner anlegen Scripts
 - [x] In Scripts ein neues C# Script anlegen: Rechtsklick > Create > C# Script. Script gleich umbenennen in Target. Mit Doppelklick öffnen in Visual Studio (https://github.com/HTL-SBG/FAQIssuesUnityVSGitGitHub/issues/2).
-- [ ] Anhängen des Scripts Target als Komponente an das GameObject Target (per Drag and Drop). 
+- [x] Anhängen des Scripts Target als Komponente an das GameObject Target (per Drag and Drop). 
 - [ ] Einen 2D Collider als Komponente dem Target hinzufügen. 
 - [ ] Dem Script Target eine Methode OnMouseDown() hinzufügen. 
 - [ ] In der OnMouseDown() Methodendeklaration, die Methodenaufruf Destroy(gameObject); hinzufügen
