@@ -56,7 +56,7 @@ das GameObject Main Camera per Drag & Drop auf Render Camera ziehen in der Kompo
 - [x] ... (noch unvollständig)
 
 ### Limitationen:
-Siehe issue.
+Siehe issues -> "Die Targets erscheinen nicht."
 
 ### Lessons Learned:
 - [ ] xy
