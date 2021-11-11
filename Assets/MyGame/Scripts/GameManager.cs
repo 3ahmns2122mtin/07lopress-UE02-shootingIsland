@@ -1,19 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public GameObject target;
     public GameObject parentOfTargets;
+    public GameObject objCounter;
 
+    private Text textCounter;
     public bool won;
     public int score;
+
 
 
     // Start is called before the first frame update
     void Start()
     {
+        textCounter = objCounter.GetComponent<Text>();
         won = false;
         InvokeRepeating("Spawn", 1f, 2f);
     }
@@ -25,8 +30,8 @@ public class GameManager : MonoBehaviour
 
     private void Spawn()
     {
-        float randomX = Random.Range(-500, 500);
-        float randomY = Random.Range(-250, 250);
+        float randomX = Random.Range(-480, 480);
+        float randomY = Random.Range(-300, 300);
 
         Vector2 random2DPosition = new Vector2(randomX, randomY);
 
@@ -44,12 +49,12 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Debug.Log(won);
+            //Debug.Log(won);
         }
 
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Mouse pressed");
+            //Debug.Log("Mouse pressed");
         }
     }
 
@@ -58,8 +63,9 @@ public class GameManager : MonoBehaviour
     {
         score++;
         Debug.Log("increment ... " + score);
+        textCounter.text = score.ToString();
 
-        if (score > 10)
+        if (score == 10)
         {
             won = true;
         }

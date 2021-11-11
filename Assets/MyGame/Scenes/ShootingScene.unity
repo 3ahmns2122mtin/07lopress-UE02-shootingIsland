@@ -153,11 +153,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 378177095}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.87, y: -6.55}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1031.13, y: 695.47}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &75358123
@@ -430,8 +430,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1321888469}
   - {fileID: 75358122}
+  - {fileID: 1321888469}
   - {fileID: 155529246}
   - {fileID: 480885683}
   m_Father: {fileID: 0}
@@ -586,15 +586,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1321888468}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 378177095}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -423, y: 225}
+  m_AnchoredPosition: {x: -419, y: 225}
   m_SizeDelta: {x: 76.1, y: 123.54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1321888470
@@ -610,7 +610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0.03530389, b: 0.7169812, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -696,12 +696,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5937389299461251373, guid: c877ada16e1420b4a9b19fab1adffe08, type: 3}
       propertyPath: score
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5937389299461251373, guid: c877ada16e1420b4a9b19fab1adffe08, type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 6061806818411621752, guid: a53f8216990420843b3c6bd4dbc8c193, type: 3}
+    - target: {fileID: 5937389299461251373, guid: c877ada16e1420b4a9b19fab1adffe08, type: 3}
+      propertyPath: objCounter
+      value: 
+      objectReference: {fileID: 1321888468}
     - target: {fileID: 5937389299461251373, guid: c877ada16e1420b4a9b19fab1adffe08, type: 3}
       propertyPath: parentOfTargets
       value: 
