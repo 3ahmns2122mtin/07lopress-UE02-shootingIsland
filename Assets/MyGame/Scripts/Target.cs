@@ -18,5 +18,4 @@ public class Target : MonoBehaviour
         gameManager.IncrementScore();
         Destroy(gameObject);
     }
-
 }
