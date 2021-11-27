@@ -15,9 +15,6 @@ WebGL Referenzauflösung (960x600)
 ![shootingIsland_skizze_lopress](https://user-images.githubusercontent.com/90834282/136345643-a07cf84f-b872-4428-a32b-c0b50e925842.jpeg)
 ![shootingIsland_progress01](https://user-images.githubusercontent.com/90834282/136688400-93d0ca4f-03cf-4610-8e25-96b56bb52284.jpeg)
 
-### Notwendiges für die Ausführung: 
-z.B.: Installationsprozess, Schritt für Schritt Anweisung, spezielles Packages welches geladen werden muss, etc.  
-
 ### Drittmaterial: 
 Falls verwendet Fonts, Sounds, Music, Graphics, Materials, Code etc. welches nicht von mir stammt muss hier referenziert werden. 
 
@@ -53,13 +50,17 @@ das GameObject Main Camera per Drag & Drop auf Render Camera ziehen in der Kompo
 - [x] In der Szene ein empty GameObject anlegen, umbenennen in GameManager und Reset ausführen. 
 - [x] Im Scripts Ordner ein neues C# Script erstellen mit dem Namen GameManager.
 - [x] Das GameManager Script per Drag and Drop dem GameObject GameManager hinzufügen.
-- [x] ... (noch unvollständig)
 
-### Limitationen:
-Siehe issues -> "Die Targets erscheinen nicht."
 
-### Lessons Learned:
-- [ ] xy
+- [x] Upload auf GitHub von Assets und ProjectSettings Folder (Version vom 25.11)
+- [x] WebGL Build machen in docs Ordner von dem Projektstand 25.11 
+- [x] docs Ordner auf GitHub laden
+- [x] Eine funktionale Änderung einbauen (zusätzliches Audio, hit Bad Targets --> Decrement by 1, etc.) 
+- [x] WebGL Build machen in docs Ordner 
+- [x] docs Ordner auf GitHub laden
+
+- [x] Readme aktualisieren
+- [x] Projekt etwas aufhüpschen
 
 
 Copyright by lopress
