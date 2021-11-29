@@ -19,6 +19,7 @@ WebGL Referenzauflösung (960x600)
 Pinsel: https://creazilla.com/de/nodes/48894-pinsel-clipart
 Van Gogh: https://classroomclipart.com/clipart-view/Clipart/People/van_gogh_jpg.htm
 Starry Night: https://pixels.com/featured/van-gogh-starry-night-balux.htm
+Plop Sound: https://www.youtube.com/watch?v=oZI4QhyO5ew
 
 ### Anforderungsliste:  
 - [x] WebGL export/upload lauffähig/spielbar
