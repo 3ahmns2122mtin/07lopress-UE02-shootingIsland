@@ -16,7 +16,9 @@ WebGL Referenzauflösung (960x600)
 ![shootingIsland_progress01](https://user-images.githubusercontent.com/90834282/136688400-93d0ca4f-03cf-4610-8e25-96b56bb52284.jpeg)
 
 ### Drittmaterial: 
-Falls verwendet Fonts, Sounds, Music, Graphics, Materials, Code etc. welches nicht von mir stammt muss hier referenziert werden. 
+Pinsel: https://creazilla.com/de/nodes/48894-pinsel-clipart
+Van Gogh: https://classroomclipart.com/clipart-view/Clipart/People/van_gogh_jpg.htm
+Starry Night: https://pixels.com/featured/van-gogh-starry-night-balux.htm
 
 ### Anforderungsliste:  
 - [x] WebGL export/upload lauffähig/spielbar
