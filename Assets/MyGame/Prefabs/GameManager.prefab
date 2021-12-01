@@ -45,5 +45,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 6061806818411621752, guid: a53f8216990420843b3c6bd4dbc8c193, type: 3}
   parentOfTargets: {fileID: 0}
-  won: 0
-  score: 0
+  objCounter: {fileID: 0}
+  wonObj: {fileID: 0}
+  shootSound: {fileID: 0}
+  loseSound: {fileID: 0}
+  earTarget: {fileID: 7411909397120226246, guid: bc464ec23ae8fb84db998dade3a12a19, type: 3}
+  parentEarTargets: {fileID: 0}

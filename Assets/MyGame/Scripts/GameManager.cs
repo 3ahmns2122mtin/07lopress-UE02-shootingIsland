@@ -10,6 +10,11 @@ public class GameManager : MonoBehaviour
     public GameObject wonObj;
     public GameObject shootSound;
 
+    public GameObject loseSound;
+    public GameObject earTarget;
+    public GameObject parentOfEarTarget;
+
+
     private Text textCounter;
     private bool won;
     private int score;
@@ -22,6 +27,7 @@ public class GameManager : MonoBehaviour
         textCounter = objCounter.GetComponent<Text>();
         won = false;
         InvokeRepeating("Spawn", 1f, 2f);
+        InvokeRepeating("EarSpawn", 2f, 4f);
         wonObj.SetActive(false);
     }
 
@@ -41,37 +47,56 @@ public class GameManager : MonoBehaviour
         myTarget.transform.localPosition = random2DPosition;
     }
 
+    private void EarSpawn()
+    {
+        float randomX = Random.Range(-480, 480);
+        float randomY = Random.Range(-300, 300);
+
+        Vector2 random2DPosition = new Vector2(randomX, randomY);
+
+        GameObject myEarTarget = Instantiate(earTarget, parentOfEarTarget.transform);
+        myEarTarget.transform.localPosition = random2DPosition;
+    }
+
 
     // Update is called once per frame
     void Update()
     {
-        if(won == true)
+        if (won == true)
         {
             CancelInvoke("Spawn");
+            CancelInvoke("EarSpawn");
             wonObj.SetActive(true);
         }
-        else
-        {
-            //Debug.Log(won);
-        }
-
-        if (Input.GetMouseButtonDown(0))
-        {
-            //Debug.Log("Mouse pressed");
-            shootSound.GetComponent<AudioSource>().Play();
-        }
     }
-
 
     public void IncrementScore()
     {
         score++;
         Debug.Log("increment ... " + score);
         textCounter.text = score.ToString();
+      
 
         if (score == maxHit)
         {
             won = true;
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            shootSound.GetComponent<AudioSource>().Play();
+        }
+    }
+
+    public void DecrementScore()
+    {
+        score--;
+        Debug.Log("decrement ... " + score);
+        textCounter.text = score.ToString();
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            loseSound.GetComponent<AudioSource>().Play();
         }
     }
 }
