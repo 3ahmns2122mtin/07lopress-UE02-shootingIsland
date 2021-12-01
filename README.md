@@ -16,6 +16,7 @@ https://3ahmns2122mtin.github.io/07lopress-UE02-shootingIsland/
 ### Visuelle Einblicke in das Projekt: 
 ![shootingIsland_skizze_lopress](https://user-images.githubusercontent.com/90834282/136345643-a07cf84f-b872-4428-a32b-c0b50e925842.jpeg)
 ![shootingIsland_progress01](https://user-images.githubusercontent.com/90834282/136688400-93d0ca4f-03cf-4610-8e25-96b56bb52284.jpeg)
+![grafik](https://user-images.githubusercontent.com/90834282/144297278-54dd5c82-0da9-4edc-92c1-f134d7b36b18.png)
 
 
 ### Drittmaterial: 
@@ -23,7 +24,7 @@ Pinsel: https://creazilla.com/de/nodes/48894-pinsel-clipart
 Van Gogh: https://classroomclipart.com/clipart-view/Clipart/People/van_gogh_jpg.htm
 Starry Night: https://pixels.com/featured/van-gogh-starry-night-balux.htm
 Plop Sound: https://www.youtube.com/watch?v=oZI4QhyO5ew
-Lose Sound: 
+Lose Sound: https://www.youtube.com/watch?v=lQ8F0MUXZkc
 
 ### Anforderungsliste:  
 - [x] WebGL export/upload lauffähig/spielbar
