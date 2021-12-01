@@ -1,9 +1,9 @@
 # UE02 Shooting Island 
 
-https://3ahmns2122mtin.github.io/07lopress-UE02-shootingIsland/
+
 
 ### Projektbeschreibung: 
-Einführung in / Zusammenfassung des Projektes. 
+Es wurde ein 2D Spiel entwickelt, in dem man 10 Targets treffen muss, um zu gewinnen. In meiner Version ist im Hintergrund eine Comic-Version von Starry Nights zu sehen, und Van Gogh muss mit einem Pinsel "abgeschossen" werden. Wenn ein schlechtes Target, bei mir ein Ohr, getroffen wird, wird ein Punkt abgezogen.
 
 ### Entwicklungsplattform: 
 Windows 10, Unity 2020.3.18f1, Visual Studio Version 2019 Community
@@ -11,15 +11,19 @@ Windows 10, Unity 2020.3.18f1, Visual Studio Version 2019 Community
 ### Zielplattform: 
 WebGL Referenzauflösung (960x600) 
 
+https://3ahmns2122mtin.github.io/07lopress-UE02-shootingIsland/
+
 ### Visuelle Einblicke in das Projekt: 
 ![shootingIsland_skizze_lopress](https://user-images.githubusercontent.com/90834282/136345643-a07cf84f-b872-4428-a32b-c0b50e925842.jpeg)
 ![shootingIsland_progress01](https://user-images.githubusercontent.com/90834282/136688400-93d0ca4f-03cf-4610-8e25-96b56bb52284.jpeg)
+
 
 ### Drittmaterial: 
 Pinsel: https://creazilla.com/de/nodes/48894-pinsel-clipart
 Van Gogh: https://classroomclipart.com/clipart-view/Clipart/People/van_gogh_jpg.htm
 Starry Night: https://pixels.com/featured/van-gogh-starry-night-balux.htm
 Plop Sound: https://www.youtube.com/watch?v=oZI4QhyO5ew
+Lose Sound: 
 
 ### Anforderungsliste:  
 - [x] WebGL export/upload lauffähig/spielbar
@@ -53,14 +57,14 @@ das GameObject Main Camera per Drag & Drop auf Render Camera ziehen in der Kompo
 - [x] In der Szene ein empty GameObject anlegen, umbenennen in GameManager und Reset ausführen. 
 - [x] Im Scripts Ordner ein neues C# Script erstellen mit dem Namen GameManager.
 - [x] Das GameManager Script per Drag and Drop dem GameObject GameManager hinzufügen.
--
+:
 - [x] Upload auf GitHub von Assets und ProjectSettings Folder (Version vom 25.11)
 - [x] WebGL Build machen in docs Ordner von dem Projektstand 25.11 
 - [x] docs Ordner auf GitHub laden
 - [x] Eine funktionale Änderung einbauen (zusätzliches Audio, hit Bad Targets --> Decrement by 1, etc.) 
 - [x] WebGL Build machen in docs Ordner 
 - [x] docs Ordner auf GitHub laden
--
+:
 - [x] Readme aktualisieren
 - [x] Projekt etwas aufhüpschen
 
